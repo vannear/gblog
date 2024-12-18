@@ -2,5 +2,7 @@
     "title":"耶律髡",
     "subTitle":"耶律髡小站,记录各种生活工作学习上的内容",
     "avatarUrl":"https://github.com/vannear/tinymind-blog/blob/main/assets/images/_f63efe5c-eebd-418e-a86e-f73fec535c27.jpg?raw=true",
+    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>",
+    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
     "GMEEK_VERSION":"last"
 }

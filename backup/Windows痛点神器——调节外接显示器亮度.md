@@ -2,6 +2,6 @@
 
 Twinkle Tray：
 
-[[项目地址](https://github.com/xanderfrangos/twinkle-tray)](https://github.com/xanderfrangos/twinkle-tray)
+[项目地址](https://github.com/xanderfrangos/twinkle-tray)
 
-[[下载地址](https://apps.microsoft.com/detail/9pljwwsv01l)](https://apps.microsoft.com/detail/9pljwwsv01l)
+[下载地址](https://apps.microsoft.com/detail/9pljwwsv01l)

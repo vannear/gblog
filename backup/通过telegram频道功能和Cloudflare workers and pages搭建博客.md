@@ -1,6 +1,6 @@
 # 感谢活佛
 
-[[来源](https://yinji.org/5334.html)](https://yinji.org/5334.html)
+[来源](https://yinji.org/5334.html)
 
 # 基本流程示意图
 
@@ -11,7 +11,7 @@
 
 ## 1. Fork BroadcastChannel项目
 
-[[项目地址](https://github.com/ccbikai/BroadcastChannel)](https://github.com/ccbikai/BroadcastChannel)
+[项目地址](https://github.com/ccbikai/BroadcastChannel)
 
 
 ## 2. Cloudflare创建pages

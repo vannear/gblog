@@ -8,15 +8,15 @@ OpenWRT作为开源的路由器固件/系统因其极高的可定制型以及各
 
 # 操作
 
-唯一需要注意的是在PVE上安装OpenWRT的虚拟机有些设置和正常的虚拟机操作系统不同，请参看下面的详细步骤，本文来源于自身操作的过程以及一位[[OPENWRT玩家给出的经验](https://www.luyouqi.com/shezhi/3062.html)](https://www.luyouqi.com/shezhi/3062.html)。感谢社区的分享！
+唯一需要注意的是在PVE上安装OpenWRT的虚拟机有些设置和正常的虚拟机操作系统不同，请参看下面的详细步骤，本文来源于自身操作的过程以及一位[OPENWRT玩家给出的经验](https://www.luyouqi.com/shezhi/3062.html)。感谢社区的分享！
 
 <!-- more -->
 
 ## 1. 下载OPENWRT镜像
 
-以23.05为例，[[下载地址](https://downloads.openwrt.org/releases/22.03.5/targets/x86/64/openwrt-22.03.5-x86-64-generic-ext4-combined.img.gz)](https://downloads.openwrt.org/releases/22.03.5/targets/x86/64/openwrt-22.03.5-x86-64-generic-ext4-combined.img.gz)
+以23.05为例，[下载地址](https://downloads.openwrt.org/releases/22.03.5/targets/x86/64/openwrt-22.03.5-x86-64-generic-ext4-combined.img.gz)
 
-[[网页](https://downloads.openwrt.org/releases/22.03.5/targets/x86/64/)](https://downloads.openwrt.org/releases/22.03.5/targets/x86/64/)
+[网页](https://downloads.openwrt.org/releases/22.03.5/targets/x86/64/)
 
 更改对应版本号或者上级菜单可以切换不同版本，用于PVE虚拟环境的选择X86即可
 下载完的文件为.GZ格式，使用7ZIP或者linux的gzip等命令行工具解压.IMG文件即可
@@ -97,7 +97,7 @@ qm importdisk [vm ID] [path of openwrt Image] [LVM location]
 
 # 附录——OPENWRT上安装zerotier
 
-Zerotier是一个比较成熟的异地组网的工具，可以用来在提供基础身份验证的情况下安全访问私有网络资源，适合NAS等工具，如果将内网的资源统一的节点放置在OPENWRT上，则可以省下zerotier的免费席位数量给更多的移动设备加入，也因此OPENWRT+Zerotier是一个不错的旁路由+个人资源私有内网透传的工具。具体内容参考[[github上的指引](https://github.com/mwarning/zerotier-openwrt/wiki)](https://github.com/mwarning/zerotier-openwrt/wiki)。
+Zerotier是一个比较成熟的异地组网的工具，可以用来在提供基础身份验证的情况下安全访问私有网络资源，适合NAS等工具，如果将内网的资源统一的节点放置在OPENWRT上，则可以省下zerotier的免费席位数量给更多的移动设备加入，也因此OPENWRT+Zerotier是一个不错的旁路由+个人资源私有内网透传的工具。具体内容参考[github上的指引](https://github.com/mwarning/zerotier-openwrt/wiki)。
 
 ## Zerotier设置的注意事项
 

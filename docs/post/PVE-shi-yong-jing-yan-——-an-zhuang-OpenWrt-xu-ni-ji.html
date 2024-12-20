@@ -92,11 +92,11 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <h1>思路</h1>
 <p>部署的思路极其直白简单，在PVE上，上传PVE的镜像，直接新建一个虚拟机用作OPENWRT软路由设备即可。</p>
 <h1>操作</h1>
-<p>唯一需要注意的是在PVE上安装OpenWRT的虚拟机有些设置和正常的虚拟机操作系统不同，请参看下面的详细步骤，本文来源于自身操作的过程以及一位[<a href="https://www.luyouqi.com/shezhi/3062.html" rel="nofollow">OPENWRT玩家给出的经验</a>](<a href="https://www.luyouqi.com/shezhi/3062.html)%E3%80%82%E6%84%9F%E8%B0%A2%E7%A4%BE%E5%8C%BA%E7%9A%84%E5%88%86%E4%BA%AB%EF%BC%81" rel="nofollow">https://www.luyouqi.com/shezhi/3062.html)。感谢社区的分享！</a></p>
+<p>唯一需要注意的是在PVE上安装OpenWRT的虚拟机有些设置和正常的虚拟机操作系统不同，请参看下面的详细步骤，本文来源于自身操作的过程以及一位<a href="https://www.luyouqi.com/shezhi/3062.html" rel="nofollow">OPENWRT玩家给出的经验</a>。感谢社区的分享！</p>
 
 <h2>1. 下载OPENWRT镜像</h2>
-<p>以23.05为例，[<a href="https://downloads.openwrt.org/releases/22.03.5/targets/x86/64/openwrt-22.03.5-x86-64-generic-ext4-combined.img.gz" rel="nofollow">下载地址</a>](<a href="https://downloads.openwrt.org/releases/22.03.5/targets/x86/64/openwrt-22.03.5-x86-64-generic-ext4-combined.img.gz" rel="nofollow">https://downloads.openwrt.org/releases/22.03.5/targets/x86/64/openwrt-22.03.5-x86-64-generic-ext4-combined.img.gz</a>)</p>
-<p>[<a href="https://downloads.openwrt.org/releases/22.03.5/targets/x86/64/" rel="nofollow">网页</a>](<a href="https://downloads.openwrt.org/releases/22.03.5/targets/x86/64/" rel="nofollow">https://downloads.openwrt.org/releases/22.03.5/targets/x86/64/</a>)</p>
+<p>以23.05为例，<a href="https://downloads.openwrt.org/releases/22.03.5/targets/x86/64/openwrt-22.03.5-x86-64-generic-ext4-combined.img.gz" rel="nofollow">下载地址</a></p>
+<p><a href="https://downloads.openwrt.org/releases/22.03.5/targets/x86/64/" rel="nofollow">网页</a></p>
 <p>更改对应版本号或者上级菜单可以切换不同版本，用于PVE虚拟环境的选择X86即可<br>
 下载完的文件为.GZ格式，使用7ZIP或者linux的gzip等命令行工具解压.IMG文件即可</p>
 <h2>2. 在PVE上上传镜像</h2>
@@ -152,7 +152,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/vannear/olikonimgbed/main/20241110165628.png"><img src="https://raw.githubusercontent.com/vannear/olikonimgbed/main/20241110165628.png" alt="" style="max-width: 100%;"></a><br>
 在网卡配置编辑完成之后，通过命令行reboot 0 或者PVE网页端gui界面重启OPENWRT虚拟机，之后OPENWRT便可开始正常使用</p>
 <h1>附录——OPENWRT上安装zerotier</h1>
-<p>Zerotier是一个比较成熟的异地组网的工具，可以用来在提供基础身份验证的情况下安全访问私有网络资源，适合NAS等工具，如果将内网的资源统一的节点放置在OPENWRT上，则可以省下zerotier的免费席位数量给更多的移动设备加入，也因此OPENWRT+Zerotier是一个不错的旁路由+个人资源私有内网透传的工具。具体内容参考[<a href="https://github.com/mwarning/zerotier-openwrt/wiki">github上的指引</a>](<a href="https://github.com/mwarning/zerotier-openwrt/wiki)%E3%80%82">https://github.com/mwarning/zerotier-openwrt/wiki)。</a></p>
+<p>Zerotier是一个比较成熟的异地组网的工具，可以用来在提供基础身份验证的情况下安全访问私有网络资源，适合NAS等工具，如果将内网的资源统一的节点放置在OPENWRT上，则可以省下zerotier的免费席位数量给更多的移动设备加入，也因此OPENWRT+Zerotier是一个不错的旁路由+个人资源私有内网透传的工具。具体内容参考<a href="https://github.com/mwarning/zerotier-openwrt/wiki">github上的指引</a>。</p>
 <h2>Zerotier设置的注意事项</h2>
 <ol>
 <li>如果要设置OPENWRT做ZEROTIER的代理，必须在OPENWRT上开启masquerade的NAT模式</li>

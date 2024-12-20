@@ -2,9 +2,9 @@
 
 来自于玄离199的科技补全第28期视频，对于中文输入法而言，这个工具是比较有用的，对于英文、中文、大写字母模式下，在光标处给出一个颜色指示，可以直观地给出现在键盘的状态，而不用去检查Windows任务栏的图标或者是键盘的指示灯。logiOptions也有这样的一个短暂提示，但那个软件体积已经接近1G，且弹出提示窗的时候有明显的卡顿，并且那个提示的框所占面积不小，极其没有性价比，而这么个微小的颜色指示器就要方便许多了，且颜色还可以自定义。
 
-[[项目地址](https://github.com/abgox/InputTip)](https://github.com/abgox/InputTip)
+[项目地址](https://github.com/abgox/InputTip)
 
-[[项目官网](https://inputtip.pages.dev/)](https://inputtip.pages.dev/)
+[项目官网](https://inputtip.pages.dev/)
 
 ## 使用方法：
 

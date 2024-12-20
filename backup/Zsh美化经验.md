@@ -3,8 +3,8 @@
 
 # 参考内容
 
-1. [[文章](https://www.sitepoint.com/zsh-tips-tricks/)](https://www.sitepoint.com/zsh-tips-tricks/)
-2. [[geekhour视频](https://www.bilibili.com/video/BV1kw411z7SV/)](https://www.bilibili.com/video/BV1kw411z7SV/)
+1. [文章](https://www.sitepoint.com/zsh-tips-tricks/)
+2. [geekhour视频](https://www.bilibili.com/video/BV1kw411z7SV/)
 
 # 1. 前提步骤-安装zsh并启用
 
@@ -44,11 +44,12 @@ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install
 
 # 3. 更改oh-my-zsh主题
 
-[[oh-my-zsh自带主题](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes )
+[oh-my-zsh自带主题](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 
-在.zshrc文件中，找到ZSH_THEME=""条目，在""中填入自己需要的theme。此外还有一些需要额外安装的主题，参考:[[其他主题列表](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes)](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes)
+在.zshrc文件中，找到ZSH_THEME=""条目，在""中填入自己需要的theme。此外还有一些需要额外安装的主题，参考:
+[其他主题列表](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes)
 
-我目前使用的是参考文章当中推荐的powerlevel10k：安装方式请根据自己的发行版版本找到下述文档当中的[[具体说明](https://github.com/romkatv/powerlevel10k#installation)](https://github.com/romkatv/powerlevel10k#installation)
+我目前使用的是参考文章当中推荐的powerlevel10k：安装方式请根据自己的发行版版本找到下述文档当中的[具体说明](https://github.com/romkatv/powerlevel10k#installation)
 
 
 

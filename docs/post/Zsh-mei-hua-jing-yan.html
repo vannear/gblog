@@ -89,8 +89,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 使用过bash+oh-my-posh以及后来的fish shell，最后还是觉得zsh用起来更舒服，因此找来了许多美化的工具和文章进行学习。</p>
 <h1>参考内容</h1>
 <ol>
-<li>[<a href="https://www.sitepoint.com/zsh-tips-tricks/" rel="nofollow">文章</a>](<a href="https://www.sitepoint.com/zsh-tips-tricks/" rel="nofollow">https://www.sitepoint.com/zsh-tips-tricks/</a>)</li>
-<li>[<a href="https://www.bilibili.com/video/BV1kw411z7SV/" rel="nofollow">geekhour视频</a>](<a href="https://www.bilibili.com/video/BV1kw411z7SV/" rel="nofollow">https://www.bilibili.com/video/BV1kw411z7SV/</a>)</li>
+<li><a href="https://www.sitepoint.com/zsh-tips-tricks/" rel="nofollow">文章</a></li>
+<li><a href="https://www.bilibili.com/video/BV1kw411z7SV/" rel="nofollow">geekhour视频</a></li>
 </ol>
 <h1>1. 前提步骤-安装zsh并启用</h1>
 <p>安装：根据不同distro的命令进行安装，某些distro会自带甚至默认是zsh──例如manjaro。下面以debian为例，Debian使用的是apt管理器因此使用apt相关命令</p>
@@ -108,9 +108,10 @@ sh -c <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span c
 <div class="highlight highlight-source-shell"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span>使用wget的方式:</span>
 sh -c <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span></pre></div>
 <h1>3. 更改oh-my-zsh主题</h1>
-<p>[<a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Themes">oh-my-zsh自带主题</a>](<a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Themes">https://github.com/ohmyzsh/ohmyzsh/wiki/Themes</a> )</p>
-<p>在.zshrc文件中，找到ZSH_THEME=""条目，在""中填入自己需要的theme。此外还有一些需要额外安装的主题，参考:[<a href="https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes">其他主题列表</a>](<a href="https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes">https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes</a>)</p>
-<p>我目前使用的是参考文章当中推荐的powerlevel10k：安装方式请根据自己的发行版版本找到下述文档当中的[<a href="https://github.com/romkatv/powerlevel10k#installation">具体说明</a>](<a href="https://github.com/romkatv/powerlevel10k#installation">https://github.com/romkatv/powerlevel10k#installation</a>)</p>
+<p><a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Themes">oh-my-zsh自带主题</a></p>
+<p>在.zshrc文件中，找到ZSH_THEME=""条目，在""中填入自己需要的theme。此外还有一些需要额外安装的主题，参考:<br>
+<a href="https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes">其他主题列表</a></p>
+<p>我目前使用的是参考文章当中推荐的powerlevel10k：安装方式请根据自己的发行版版本找到下述文档当中的<a href="https://github.com/romkatv/powerlevel10k#installation">具体说明</a></p>
 <h1>4. 插件安装</h1>
 <p>自动填充插件，运行下列命令之后，在.zshrc文件中找到plugins=()区域，将zsh-autosuggestions添加到括号中，注意：plugins括号中的插件用空格区分</p>
 <div class="highlight highlight-source-shell"><pre class="notranslate">git clone https://github.com/zsh-users/zsh-autosuggestions <span class="pl-smi">${ZSH_CUSTOM<span class="pl-k">:-</span>~<span class="pl-k">/</span>.oh-my-zsh<span class="pl-k">/</span>custom}</span>/plugins/zsh-autosuggestions</pre></div>

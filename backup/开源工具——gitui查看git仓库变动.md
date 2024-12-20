@@ -1,4 +1,4 @@
-[[项目地址](https://github.com/extrawurst/gitui)](https://github.com/extrawurst/gitui)
+[项目地址](https://github.com/extrawurst/gitui)
 
 终端工具，可以非常迅速且直观地查看git repository中的文件修改历史以及整个repo的提交记录等信息，预览内容也非常迅速，相当实用的工具。
 
@@ -7,4 +7,4 @@
 虽说是支持Windows，不过对于powershell的语言还没有进行高亮标注，期待之后的更新吧。
 ![image.png](https://cloudflare-imgbed-p1r.pages.dev/file/1732580288236_image.png)
 
-工具来源是[[良许linux的公众号更新](https://mp.weixin.qq.com/s/5x3cH_HfcIgzXUoH3KHiDg)](https://mp.weixin.qq.com/s/5x3cH_HfcIgzXUoH3KHiDg)。
+工具来源是[良许linux的公众号更新](https://mp.weixin.qq.com/s/5x3cH_HfcIgzXUoH3KHiDg)。

@@ -1,4 +1,4 @@
-[[项目地址](https://github.com/Blinue/Magpie)](https://github.com/Blinue/Magpie)
+[项目地址](https://github.com/Blinue/Magpie)
 
 可以放大对应程序的像素，还有不少设置的模式。
 

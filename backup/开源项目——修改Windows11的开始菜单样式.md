@@ -2,7 +2,7 @@ Windows 11的外观改进可以说是见仁见智，而对开始菜单的修改�
 
 但是到了Windows 11，将开始菜单的页面限制了单页能够展示的内容，并且还将天气的动态磁贴预览给关闭了，这就让我十分恼火了。最近找到了一个可以将Windows 11的这种开始菜单回滚到Windows 10的磁贴模式的开源工具——explorerPathcer。
 
-[[项目地址](https://github.com/valinet/ExplorerPatcher)](https://github.com/valinet/ExplorerPatcher)
+[项目地址](https://github.com/valinet/ExplorerPatcher)
 
 
 

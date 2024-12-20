@@ -8,7 +8,7 @@
 
 ## 1. 官网脚本
 
-按照[[官网文档介绍](https://alist.nn.ci/zh/guide/install/script.html)](https://alist.nn.ci/zh/guide/install/script.html)去使用脚本即可，没记错的话是需要使用root权限的。
+按照[官网文档介绍](https://alist.nn.ci/zh/guide/install/script.html)去使用脚本即可，没记错的话是需要使用root权限的。
 
 脚本跑完之后，去服务器对应IP地址的端口——默认5244进行访问和初始化，按照官网文档介绍非常简单，设置密码。
 

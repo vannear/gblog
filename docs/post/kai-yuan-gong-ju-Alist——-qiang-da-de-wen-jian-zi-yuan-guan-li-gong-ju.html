@@ -78,7 +78,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>由于我的目的不是去挂在其他人分享的Alist网盘到自己的服务器内——主要是双向的访问速度都不太快，因此就只单纯考虑到内网访问，并且要能够读取到外接的移动硬盘来进行操作。显然最直白的方式是通过Linux宿主机的操作系统来直接安装，而不是拉取Docker的软件做映射。</p>
 <h1>大概思路</h1>
 <h2>1. 官网脚本</h2>
-<p>按照[<a href="https://alist.nn.ci/zh/guide/install/script.html" rel="nofollow">官网文档介绍</a>](<a href="https://alist.nn.ci/zh/guide/install/script.html)%E5%8E%BB%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%E5%8D%B3%E5%8F%AF%EF%BC%8C%E6%B2%A1%E8%AE%B0%E9%94%99%E7%9A%84%E8%AF%9D%E6%98%AF%E9%9C%80%E8%A6%81%E4%BD%BF%E7%94%A8root%E6%9D%83%E9%99%90%E7%9A%84%E3%80%82" rel="nofollow">https://alist.nn.ci/zh/guide/install/script.html)去使用脚本即可，没记错的话是需要使用root权限的。</a></p>
+<p>按照<a href="https://alist.nn.ci/zh/guide/install/script.html" rel="nofollow">官网文档介绍</a>去使用脚本即可，没记错的话是需要使用root权限的。</p>
 <p>脚本跑完之后，去服务器对应IP地址的端口——默认5244进行访问和初始化，按照官网文档介绍非常简单，设置密码。</p>
 <h2>2. 内部设置</h2>
 <p>由于需要挂载外挂硬盘，其实用命令行去接入移动硬盘才是比较麻烦的步骤，需要通过一系列操作来找到对应的设备编号，再通过mount进行挂在到挂载点，有时还需要将硬盘进行格式化等等。</p>
